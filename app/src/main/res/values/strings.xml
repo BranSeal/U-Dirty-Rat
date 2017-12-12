@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">U Dirty Rat</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_home">Home</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="password">Password</string>
+    <string name="title_activity_view_sighting_list">ViewSightingList</string>
+    <string name="location_type">Location Type:</string>
+    <string name="borough">Borough:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="LongitudeMsg">Enter Longitude</string>
+    <string name="latitudeMsg">Enter Latitude</string>
+    <string name="Submit">Submit</string>
+    <string name="incident_zip">Incident Zip:</string>
+    <string name="incident_address">Incident Address:</string>
+    <string name="city">City:</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="username">Username</string>
+    <string name="passwordRecovery">Forgot Password?</string>
+    <string name="recoveryToken">Enter Username to receive Token</string>
+
+
+</resources>

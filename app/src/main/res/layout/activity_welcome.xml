@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="teamminus1.udirtyrat.controllers.Welcome">
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/register_button"
+        app:layout_constraintRight_toRightOf="@+id/register_button"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintLeft_toLeftOf="@+id/register_button"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <ImageView
+        android:id="@+id/imgRatWelcome"
+        android:layout_width="132dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/animated_rat"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text" />
+
+    <TextView
+        android:id="@+id/ForgotPassword_text"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:text="@string/passwordRecovery"
+        app:layout_constraintBottom_toBottomOf="@+id/register_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="139dp" />
+
+</android.support.constraint.ConstraintLayout>
